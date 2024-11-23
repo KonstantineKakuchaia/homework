@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fddbbb;
+}
+.blogList {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  justify-content: center;
+  margin: 50px auto 50px;
+  gap: 15px;
+}
+.paragraph {
+  width: 700px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: #003161 solid 1px;
+  margin: auto;
+  background-color: #80c4e9;
+}
+h2 {
+  color: white;
+}
+p {
+  color: #fff6e9;
+}
